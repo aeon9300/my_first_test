@@ -1,0 +1,98 @@
+body {
+    font-family:  sans-serif;
+    color: white;
+    background-color: rgb(31, 16, 16);
+    line-height: 1.4;
+    width: 100%;
+}
+
+#navbar {
+    position: fixed;
+    height: 100%;
+    min-width: 300px;
+    width: 300px;
+    
+    top: 0px;
+    left: 0px;
+    
+    color: black;
+    background-color: white;
+    padding: 75px 0px;
+    z-index: 3;
+}
+
+h1 {
+    font-size: 30px;
+    color: aqua;
+}
+
+#navbar header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 5px 0px;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    color: gray;
+    text-decoration: none;
+}
+
+#main-doc {
+    position: absolute;
+    
+    top: 30vw;
+    margin-left: 310px;
+    
+    padding: 20px;
+}
+
+Section {
+    background: rgb(230, 255, 255, 0.1);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto; 
+}
+
+Section header {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+
+.icons {
+display: flex;
+font-weight: bold;
+font-size: 30px;
+margin-left: 80px;
+margin-bottom: 90px;
+}
+
+.icons li {
+    list-style: none;
+}
+
+.social {
+text-align: left;
+}
+
+.fab {
+color: white;
+padding: 0 8px;
+margin-top: 100px;
+}
+
+.fa-bars {
+color:white;
+padding-right: 10px;
+}
